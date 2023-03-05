@@ -13,7 +13,7 @@ public class Product {
         this.category = category;
     }
 
-    void showInfo(){
+    void showInfo() {
         System.out.println("Nazwa produktu: " + name);
         System.out.printf("Cena produktu: %.2fzł%n", price);
         System.out.println("Opis produktu: " + description);
