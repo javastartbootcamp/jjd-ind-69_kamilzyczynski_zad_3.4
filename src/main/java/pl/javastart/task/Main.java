@@ -20,9 +20,14 @@ public class Main {
         System.out.printf("Cena produktu: %.2fzł%n", product4.price);
         System.out.println("Opis produktu: " + product4.description);
 
-        SpecialOffer specialOffer = new SpecialOffer(product2, "Obniżka o 20%, ważna przez 2 dni", 2,
+        SpecialOffer specialOffer1 = new SpecialOffer(product2, "Obniżka o 20%, ważna przez 2 dni", 2,
                 0.2);
         System.out.printf("%.2fzł", product2.price);
 
+        SpecialOffer specialOffer2 = new SpecialOffer(product3, "Obniżka o 30%, ważna przez 1 dzień",
+                1, 0.3);
+
+        SpecialOffer specialOffer3 = new SpecialOffer(product4, "Obniżka o 10%, ważna przez 5 dni",
+                5, 0.1);
     }
 }
